@@ -26,7 +26,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
+	"github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
 
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"

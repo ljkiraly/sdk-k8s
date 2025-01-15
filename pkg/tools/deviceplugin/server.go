@@ -32,10 +32,10 @@ import (
 	pluginapi "k8s.io/kubelet/pkg/apis/deviceplugin/v1beta1"
 	podresourcesapi "k8s.io/kubelet/pkg/apis/podresources/v1alpha1"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/podresources"
+	"github.com/ljkiraly/sdk-k8s/pkg/tools/podresources"
 )
 
 // TokenPool is a token.Pool interface

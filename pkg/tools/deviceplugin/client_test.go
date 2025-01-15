@@ -28,7 +28,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/deviceplugin"
+	"github.com/ljkiraly/sdk-k8s/pkg/tools/deviceplugin"
 )
 
 const (

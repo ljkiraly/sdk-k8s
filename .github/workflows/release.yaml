@@ -33,21 +33,15 @@ jobs:
     needs: get-tag
     uses: networkservicemesh/.github/.github/workflows/release.yaml@main
     secrets:
-      token: ${{ secrets.NSM_BOT_GITHUB_TOKEN }}
+      token: ${{ secrets.GITHUB_TOKEN }}
 
   release-dependent-repositories:
     name: Release dependent repositories
     needs: [get-tag, create-release]
-    uses: networkservicemesh/.github/.github/workflows/release-dependent-repositories.yaml@main
+    uses: ljkiraly/nsm-github/.github/workflows/release-dependent-repositories.yaml@main
     with:
       tag: ${{ needs.get-tag.outputs.tag }}
       dependent_repositories: |
-        ["cmd-exclude-prefixes-k8s",
-        "cmd-forwarder-sriov",
-        "cmd-registry-k8s",
-        "cmd-nse-supplier-k8s",
-        "cmd-forwarder-vpp",
-        "cmd-admission-webhook-k8s",
-        "cmd-forwarder-ovs"]
+        ["cmd-forwarder-vpp"]
     secrets:
-      token: ${{ secrets.NSM_BOT_GITHUB_TOKEN }}
+      token: ${{ secrets.GITHUB_TOKEN }}

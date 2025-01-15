@@ -33,12 +33,12 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 
 	"github.com/networkservicemesh/api/pkg/api/registry"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/matchutils"
+	"github.com/ljkiraly/sdk/pkg/registry/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/matchutils"
 
-	v1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
+	v1 "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
+	"github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
 )
 
 type etcdNSRegistryServer struct {

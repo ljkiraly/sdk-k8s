@@ -23,8 +23,8 @@
 package networkservicemesh
 
 import (
-	internalinterfaces "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/informers/externalversions/networkservicemesh.io/v1"
+	internalinterfaces "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/informers/externalversions/networkservicemesh.io/v1"
 )
 
 // Interface provides access to each of this group's versions.

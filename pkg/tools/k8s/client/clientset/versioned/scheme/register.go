@@ -29,7 +29,7 @@ import (
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 
-	networkservicemeshv1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
+	networkservicemeshv1 "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
 )
 
 var Scheme = runtime.NewScheme()

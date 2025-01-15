@@ -30,11 +30,11 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	pluginapi "k8s.io/kubelet/pkg/apis/deviceplugin/v1beta1"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/socketpath"
+	"github.com/ljkiraly/sdk-k8s/pkg/tools/socketpath"
 )
 
 type registrationServer struct {

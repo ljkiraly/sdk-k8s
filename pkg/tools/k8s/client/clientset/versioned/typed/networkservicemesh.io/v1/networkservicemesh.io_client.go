@@ -27,8 +27,8 @@ import (
 
 	rest "k8s.io/client-go/rest"
 
-	v1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/scheme"
+	v1 "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
+	"github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/scheme"
 )
 
 type NetworkservicemeshV1Interface interface {

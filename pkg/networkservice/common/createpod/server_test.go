@@ -31,11 +31,11 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/clientinfo"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/adapters"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/clientinfo"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/networkservice/common/createpod"
+	"github.com/ljkiraly/sdk-k8s/pkg/networkservice/common/createpod"
 )
 
 var ignoreKLogDaemon = goleak.IgnoreTopFunction("k8s.io/klog/v2.(*loggingT).flushDaemon")

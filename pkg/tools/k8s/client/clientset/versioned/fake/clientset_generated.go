@@ -29,9 +29,9 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
 
-	clientset "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
-	networkservicemeshv1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/typed/networkservicemesh.io/v1"
-	fakenetworkservicemeshv1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/typed/networkservicemesh.io/v1/fake"
+	clientset "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/clientset/versioned"
+	networkservicemeshv1 "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/typed/networkservicemesh.io/v1"
+	fakenetworkservicemeshv1 "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/typed/networkservicemesh.io/v1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

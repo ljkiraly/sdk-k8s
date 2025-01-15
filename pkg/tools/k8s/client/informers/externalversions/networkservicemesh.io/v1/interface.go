@@ -23,7 +23,7 @@
 package v1
 
 import (
-	internalinterfaces "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

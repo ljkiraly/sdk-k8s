@@ -33,11 +33,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/core/adapters"
+	"github.com/ljkiraly/sdk/pkg/registry/core/adapters"
 
-	"github.com/networkservicemesh/sdk-k8s/pkg/registry/etcd"
-	v1 "github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
-	"github.com/networkservicemesh/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/fake"
+	"github.com/ljkiraly/sdk-k8s/pkg/registry/etcd"
+	v1 "github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/apis/networkservicemesh.io/v1"
+	"github.com/ljkiraly/sdk-k8s/pkg/tools/k8s/client/clientset/versioned/fake"
 )
 
 func Test_NSReRegister(t *testing.T) {
